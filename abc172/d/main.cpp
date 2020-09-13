@@ -5,26 +5,20 @@ using ll = long long;
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define all(x) (x).begin(), (x).end()
 
+long long g(long long n){
+  return (n *(n +1))/2;
+}
+
 int main()
 {
   long long N;
   cin >> N;
-  long long f[N + 1] = {};
   long long ans = 0;
-
-  rep(i, N + 1)
-  {
-    int j = 1;
-    while (i * j <= N)
-    {
-      f[i * j] += 1;
-      j++;
-    }
-  }
 
   for (long long i = 1; i <= N; i++)
   {
-    ans += i * f[i];
+    long long n = (ll)(N / i);
+    ans += i * g(n);
   }
   cout << ans;
 }
