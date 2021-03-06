@@ -1,0 +1,31 @@
+{
+  "contest": {
+    "id": "future-contest-2021-qual",
+    "title": "HACK TO THE FUTURE 2021 予選",
+    "url": "https://atcoder.jp/contests/future-contest-2021-qual"
+  },
+  "tasks": [
+    {
+      "id": "future_contest_2021_qual_a",
+      "label": "A",
+      "title": "カードの回収",
+      "url": "https://atcoder.jp/contests/future-contest-2021-qual/tasks/future_contest_2021_qual_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "future_contest_2021_qual_b",
+      "label": "B",
+      "title": "ビジュアライザ",
+      "url": "https://atcoder.jp/contests/future-contest-2021-qual/tasks/future_contest_2021_qual_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
