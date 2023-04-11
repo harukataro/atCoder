@@ -1,2 +1,0 @@
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/isao/work/atCoder/abc163/target/release/build/typenum-25eceb71419ac6dc/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/isao/work/atCoder/abc163/target/release/build/typenum-25eceb71419ac6dc/out/op.rs
